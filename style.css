@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.nav{
+  display: grid;
+  grid-template-columns: repeat(3 , 1fr);
+}
+
+.border-dotted{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  gap: 40px;
+list-style: none;
+
+}
+
+.border-dotted a{
+  text-decoration: none;
+  color: black;
+}
+.border-dotted button{
+  border: none;
+  background: white;
+}
+
+.hm{
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+.right-side{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  gap: 40px;
+list-style: none;
+
+}
+.right-side a{
+  text-decoration: none;
+  text-decoration: solid;
+  color: black;
+
+  
+}
+.right-side button{
+  border: none;
+  background: none;
+}
+
+.section-nav{
+  display: flex;
+  list-style: none;
+}
+
+.Men ul{
+display: none;
+}
+.sec-nav{
+  display: flex;
+  justify-content: space-between;
+}
