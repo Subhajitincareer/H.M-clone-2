@@ -194,6 +194,8 @@ footer{
    list-style: none;
    gap: 1%;
 justify-content: center;
+gap: 10px;
+
 }
 .footer-text{
   width: 100%;
@@ -242,5 +244,10 @@ font-size: 0.6875rem;
 img{
   width: 968px;
   height: 800px;
+}
+.media{
+  position: relative;
+  bottom: 100px;
+
 }
 };
